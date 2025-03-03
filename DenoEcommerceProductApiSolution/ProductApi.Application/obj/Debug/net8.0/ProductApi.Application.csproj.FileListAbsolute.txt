@@ -15,3 +15,4 @@ D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductA
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Application\bin\Debug\net8.0\ProductApi.Domain.pdb
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.csproj.AssemblyReference.cache
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductA.E443A747.Up2Date
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Application\obj\Debug\net8.0\ProductApi.Application.sourcelink.json
