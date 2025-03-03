@@ -1,0 +1,14 @@
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.deps.json
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.runtimeconfig.json
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\bin\Debug\net8.0\eCommerce.SharedLibrary.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.csproj.AssemblyReference.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.AssemblyInfoInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.AssemblyInfo.cs
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.csproj.CoreCompileInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\refint\eCommerce.SharedLibrary.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\eCommerce.SharedLibrary.genruntimeconfig.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\obj\Debug\net8.0\ref\eCommerce.SharedLibrary.dll
