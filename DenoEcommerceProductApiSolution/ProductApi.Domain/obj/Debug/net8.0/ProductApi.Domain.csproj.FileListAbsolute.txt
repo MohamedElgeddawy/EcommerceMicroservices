@@ -1,0 +1,11 @@
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\bin\Debug\net8.0\ProductApi.Domain.deps.json
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\bin\Debug\net8.0\ProductApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\bin\Debug\net8.0\ProductApi.Domain.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.AssemblyInfoInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.AssemblyInfo.cs
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.csproj.CoreCompileInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\refint\ProductApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ref\ProductApi.Domain.dll
