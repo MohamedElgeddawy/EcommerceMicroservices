@@ -9,3 +9,4 @@ D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductA
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\refint\ProductApi.Domain.dll
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.pdb
 D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ref\ProductApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DenoEcommerceProductApiSolution\ProductApi.Domain\obj\Debug\net8.0\ProductApi.Domain.sourcelink.json

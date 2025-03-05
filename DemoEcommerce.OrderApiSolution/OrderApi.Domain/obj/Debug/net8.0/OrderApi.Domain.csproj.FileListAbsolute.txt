@@ -1,0 +1,12 @@
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.deps.json
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\bin\Debug\net8.0\OrderApi.Domain.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.AssemblyInfoInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.AssemblyInfo.cs
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.csproj.CoreCompileInputs.cache
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.sourcelink.json
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\refint\OrderApi.Domain.dll
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\OrderApi.Domain.pdb
+D:\FullStack\Project\Tasks og Baker\EcommerceMicroservices\DemoEcommerce.OrderApiSolution\OrderApi.Domain\obj\Debug\net8.0\ref\OrderApi.Domain.dll
