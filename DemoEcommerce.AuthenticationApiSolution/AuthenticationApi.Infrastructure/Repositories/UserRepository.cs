@@ -55,10 +55,10 @@ namespace AuthenticationApi.Infrastructure.Repositories
             var securityKey = new SymmetricSecurityKey(key);
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new List<Claim>
-            {
-                new(ClaimTypes.Name, user.Name!),
-                new(ClaimTypes.Email, user.Email!)
-            };
+    {
+        new(ClaimTypes.Name, user.Name!),
+        new(ClaimTypes.Email, user.Email!)
+    };
             if (!string.IsNullOrEmpty(user.Role) || !Equals("string", user.Role))
                 claims.Add(new(ClaimTypes.Role, user.Role!));
 
@@ -66,10 +66,11 @@ namespace AuthenticationApi.Infrastructure.Repositories
                 issuer: config["Authentication:Issuer"],
                 audience: config["Authentication:Audience"],
                 claims: claims,
-                expires: null,
+                expires: DateTime.Now.AddHours(1), // Set an expiration time
                 signingCredentials: credentials);
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         public async Task<Response> Register(AppUserDTO appUserDTO)
         {

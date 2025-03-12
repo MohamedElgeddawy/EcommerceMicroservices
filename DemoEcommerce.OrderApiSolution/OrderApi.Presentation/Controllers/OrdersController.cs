@@ -1,4 +1,5 @@
 ﻿using eCommerce.SharedLibrary.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderApi.Application.DTOs;
@@ -10,12 +11,14 @@ namespace OrderApi.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class OrdersController (IOrder orderInterface, IOrderService orderService): ControllerBase
     {
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrderDTO>>> GetOrders()
         {
+            await Task.Delay(4000);
             var orders = await orderInterface.GetAllAsync();
             if (!orders.Any())
                 return NotFound("No order detected in the database");

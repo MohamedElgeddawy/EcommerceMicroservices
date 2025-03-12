@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Presentation", "AuthenticationApi.Presentation\AuthenticationApi.Presentation.csproj", "{22B77839-126D-4CDE-A244-226D096A569C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.SharedLibrary", "..\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\eCommerce.SharedLibrary.csproj", "{D52A1257-FE59-43E3-B978-5F608F32CA9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.SharedLibrary", "..\DemoECommerceSharedLibrarySolution\eCommerceSharedLibrary\eCommerce.SharedLibrary.csproj", "{97345451-181C-46BE-BAAF-5E1304E5342D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{22B77839-126D-4CDE-A244-226D096A569C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B77839-126D-4CDE-A244-226D096A569C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B77839-126D-4CDE-A244-226D096A569C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D52A1257-FE59-43E3-B978-5F608F32CA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D52A1257-FE59-43E3-B978-5F608F32CA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D52A1257-FE59-43E3-B978-5F608F32CA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D52A1257-FE59-43E3-B978-5F608F32CA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97345451-181C-46BE-BAAF-5E1304E5342D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97345451-181C-46BE-BAAF-5E1304E5342D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97345451-181C-46BE-BAAF-5E1304E5342D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97345451-181C-46BE-BAAF-5E1304E5342D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

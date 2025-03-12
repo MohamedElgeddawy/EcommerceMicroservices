@@ -20,7 +20,7 @@ namespace OrderApi.Application.Services
         {
             // Call Product Api using HttpClient 
             // Redirect this call t the API Gateway since product API is not response to outsiders.
-            var getProduct = await httpClient.GetAsync($"/api/products/{productId}");
+            var getProduct = await httpClient.GetAsync($"/api/Products/{productId}");
             if (!getProduct.IsSuccessStatusCode)
                 return null!;
             var product = await getProduct.Content.ReadFromJsonAsync<ProductDTO>();
@@ -56,6 +56,8 @@ namespace OrderApi.Application.Services
 
             // Prepare User
             var appUserDTO = await retryPipeline.ExecuteAsync(async token => await GetUser(order.ClientId));
+            if (appUserDTO == null)
+                throw new Exception("User not found");
 
             // Populate Order Details
             return new OrderDetailsDTO(
@@ -71,10 +73,7 @@ namespace OrderApi.Application.Services
                 productDTO.Price,
                 order.PurchaseQuantity * productDTO.Price,
                 order.OrderedDate
-
-                
-                );
-
+            );
         }
 
         // Get Orders By Client Id
