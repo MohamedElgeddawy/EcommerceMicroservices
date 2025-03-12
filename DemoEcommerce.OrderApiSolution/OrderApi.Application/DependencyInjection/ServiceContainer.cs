@@ -17,12 +17,12 @@ namespace OrderApi.Application.DependencyInjection
             services.AddHttpClient<IOrderService, OrderService>(options =>
             {
                 options.BaseAddress = new Uri(config["ApiGateway:BaseAddress"]!);
-                options.Timeout = TimeSpan.FromSeconds(10);
+                options.Timeout = TimeSpan.FromSeconds(1);
 
             });
 
             // Create Retry Strategy
-            var retyStrategy = new RetryStrategyOptions()
+            var retryStrategy = new RetryStrategyOptions()
             {
                 ShouldHandle = new PredicateBuilder().Handle<TaskCanceledException>(),
                 BackoffType = DelayBackoffType.Constant,
@@ -41,7 +41,7 @@ namespace OrderApi.Application.DependencyInjection
             // Use Retry strategy
             services.AddResiliencePipeline("my-retry-pipeline", builder =>
             {
-                builder.AddRetry(retyStrategy);
+                builder.AddRetry(retryStrategy);
             });
 
             return services;

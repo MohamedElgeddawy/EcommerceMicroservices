@@ -12,20 +12,27 @@ namespace eCommerce.SharedLibrary.DependencyInjection
 {
     public static class JWTAuthenticationScheme
     {
-        public static IServiceCollection AddJWTAuthenticationScheme(this IServiceCollection services, IConfiguration configration)
+        public static IServiceCollection AddJWTAuthenticationScheme(this IServiceCollection services, IConfiguration config)
         {
+            // add JWT service
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer("Bearer", options =>
                 {
+                    var key = Encoding.UTF8.GetBytes(config.GetSection("Authentication:Key").Value!);
+                    string issuer = config.GetSection("Authentication:Issuer").Value!;
+                    string audience = config.GetSection("Authentication:Audience").Value!;
+
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuer = true,
                         ValidateAudience = true,
-                        ValidateLifetime = true,
+                        ValidateLifetime = false,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = configration["Authentication:Issuer"],
-                        ValidAudience = configration["Authentication:Audience"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configration["Authentication:Key"]))
+                        ValidIssuer = issuer,
+                        ValidAudience = audience,
+                        IssuerSigningKey = new SymmetricSecurityKey(key)
                     };
                 });
             return services;

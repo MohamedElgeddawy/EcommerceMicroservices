@@ -45,7 +45,7 @@ namespace eCommerce.SharedLibrary.DependencyInjection
             app.UseMiddleware<GlobalException>();
 
             // Register middleware to b;ock all outsiders API calls
-            // app.UseMiddleware<ListenToOnlyApiGateway>();
+            app.UseMiddleware<ListenToOnlyApiGateway>();
 
             return app;
         }
