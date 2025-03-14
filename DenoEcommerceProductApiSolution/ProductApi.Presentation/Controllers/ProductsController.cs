@@ -20,11 +20,11 @@ namespace ProductApi.Presentation.Controllers
             // Get all products from repo
             var products = await productInterface.GetAllAsync();
             if(!products.Any())
-            return NotFound("No prducts detected in the database");
+            return NotFound("No products detected in the database");
 
             // Convert to DTO
             var (_, list) = ProductConversion.FromEntity(null, products);
-            return list.Any() ? Ok(list) : NotFound("No products detected in the database");
+            return list!.Any() ? Ok(list) : NotFound("No products detected in the database");
         }
 
         [HttpGet("{id:int}")]
@@ -79,6 +79,7 @@ namespace ProductApi.Presentation.Controllers
             var response = await productInterface.DeleteAsync(getEntity);
             return response.Flag is true ? Ok(response) : BadRequest(response);
         }
+
 
     }
 }

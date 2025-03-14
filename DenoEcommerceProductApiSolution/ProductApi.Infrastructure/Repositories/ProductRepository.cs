@@ -80,7 +80,7 @@ namespace ProductApi.Infrastructure.Repositories
         {
             try
             {
-                var products= await context.Products.AsNoTracking().ToListAsync();
+                var products = await context.Products.AsNoTracking().ToListAsync();
                 return products is not null ? products : null!;
             }
             catch (Exception ex)

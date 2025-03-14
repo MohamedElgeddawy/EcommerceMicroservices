@@ -17,4 +17,8 @@
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\DenoEcommerceProductApiSolution\ProductApi.Domain\ProductApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
